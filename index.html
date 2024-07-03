@@ -3,18 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Tech Goals</title>
+    <title>HNG11 - My Tech Goals (Oyero Habibulah)</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div class="container">
       <section>
         <div class="profile">
+          <h1>Dear Mentor, Welcome to my Portfolio</h1>
           <img
             src="./assets/profile_picture.jpg"
             alt="@oyerohabib Slack Profile Picture"
             data-testid="slackProfilePicture"
           />
+          <div class="about-me">
+            <h1>About Me</h1>
+            <p>
+              My name is Habib, a software developer with a focus on frontend
+              engineering. I decided to have fun with HNG11 and see how it goes,
+              hopefully with your magnanimity I will complete this program. I
+              look forward to having fun, learning, networking, building and
+              making value as much as I can. Thank you for taking time to read
+              through.
+            </p>
+            <div></div>
+          </div>
           <p data-testid="slackDisplayName">
             <b>Slack Display Name:</b> Oyero Habibulah Olabamiji
           </p>
@@ -40,29 +53,63 @@
           </li>
           <li>
             <p>
-              2. To Co-found a product(s) that solves real world problems and
+              2. To co-found a product(s) that solves real world problems and
               create value for people.
             </p>
           </li>
         </ul>
       </header>
-      <section>
+      <section class="useful-links">
         <h2>Useful Links</h2>
         <ul>
-          <li>
-            <a href="https://hng.tech/learn" data-testid="hngLink">HNG Learn</a>
-          </li>
-          <li>
-            <a href="https://keyword.dog" data-testid="keywordLink"
+          <span
+            ><a
+              href="https://hng.tech/learn"
+              target="_blank"
+              data-testid="hngLink"
+              >HNG Learn</a
+            >
+            |
+          </span>
+          <span>
+            <a
+              href="https://keyword.dog"
+              target="_blank"
+              data-testid="keywordLink"
               >Keyword Dog</a
             >
-          </li>
-          <li>
-            <a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink"
-              >Scrape Any Web</a
-            >
-          </li>
+            |
+          </span>
+          <a
+            href="https://scrapeanyweb.site"
+            target="_blank"
+            data-testid="scrapeanywebLink"
+            >Scrape Any Web</a
+          >
         </ul>
+      </section>
+      <section class="social-media">
+        <h2>Connect with Me</h2>
+        <div class="icons">
+          <a
+            href="https://linkedin.com/in/oyerohabib"
+            target="_blank"
+            data-testid="linkedinLink"
+            ><span>Linkedin</span></a
+          >
+          <a
+            href="https://github.com/oyerohabib"
+            target="_blank"
+            data-testid="githubLink"
+            ><span>Github</span></a
+          >
+          <a
+            href="https://oyerohabib.com/"
+            target="_blank"
+            data-testid="websiteLink"
+            ><span>Website</span></a
+          >
+        </div>
       </section>
     </div>
     <script src="script.js"></script>
